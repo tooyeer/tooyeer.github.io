@@ -1,0 +1,115 @@
+body{
+    font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+}
+p{
+    font-size: 12px;
+}
+div#wapper{                           /*   主画布       */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-image: url(../images/backgroundin.jpg);
+    background-size: 100% 100%;
+    
+} 
+header{                              /*   页眉区   */
+    background:  url(../images/100.png) no-repeat ;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header div.log{       /*  log头像  */ 
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+header div img.log{            /*   缩放照片    */
+    width: 50px;
+    height: 50px;
+}
+header div.headtop{            /*    页眉内导航栏div      */
+    height: 60px;
+    width: 1100px;
+    margin: 0px 70px 90px 25px;
+    display: table;
+}
+header ul{                          
+    list-style-type: none;
+}
+header li{                         /*   页眉内分栏       */
+    display: inline;
+    padding: 10px 50px 5px 20px ;
+    color: #fff;
+    font-size: 14px;
+}
+footer#foot{                         /*    页脚（标准化）      */
+    text-align: center;
+    margin-top: 100px;
+    color: #FFF;
+}
+
+div#callme{                    /*    联系我们div      */
+    display: table;
+    position: fixed;
+    top:200px;
+    left: 0px;
+}
+div#callme ul{
+    list-style-type: none;
+    padding:0px 0px 0px 0px ;
+}
+div#callme ul li{                        /*   联系我们专栏的分栏       */
+    border: 0.5px solid #aaaab9;
+}
+div#famous{                             /*   名言警句div       */
+    float: right;
+    width:50px;
+    margin-top: 70px;
+    margin-right: 40px;
+
+}
+div#famous p{                          /*    名言警句中的段落，调节字体      */
+    font-family: DINCond-Black;
+    color: #aaaab9;
+    text-align: center;
+    font-size: 24px;
+}
+div.wapper1{                           /*    每个博客div      */
+    display: table;
+
+    border-bottom: 1px solid rgb(207, 206, 206);
+}
+div.table-row{                       /*         */
+    display: table-row;
+    margin-left: 30px;
+    margin-right: 30px ;
+    margin-bottom: 10px;
+}
+div.play{                                  /*  摆放每个博客的照片        */
+    display: table-cell;
+    padding: 10px 5px 10px 5px ;
+}
+ a:link{
+        text-decoration: none;
+        color: black;
+}
+a:hover{
+    color: rgb(155,155,155);
+    text-decoration:normal;
+}
+a:active{
+    color:blue;
+    text-decoration:normal;
+
+}
+a:visited{                                  
+    color: #aaaab9;
+}
+div.play img.hygimg{
+    width: 320px;
+    height: 240px; 
+}
